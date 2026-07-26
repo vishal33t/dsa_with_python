@@ -1,9 +1,6 @@
 #Medium
 #Find the first non-repeating character.
-#Check whether two strings are anagrams.
-#Find duplicate numbers in a list.
-#Count word frequencies in a sentence.
-#Group words by their first letter.
+
 
 def first_non_repeating(s):
     freq = {}
