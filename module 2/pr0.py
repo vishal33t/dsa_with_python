@@ -28,7 +28,6 @@ for char in text:
     # If character exists, increment its count; otherwise, set it to 1
     frequency[char] = frequency.get(char, 0) + 1
 
-print(frequency)
 
 
 
