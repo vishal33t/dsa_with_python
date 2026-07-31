@@ -5,5 +5,4 @@ for num in number:
     if maximum<num:
         maximum = num
     
-
 print(maximum)
