@@ -1,7 +1,8 @@
-input = "hello"
-result = ""
-for ch in input:
-    result = ch + result
-print(result)    
-
-
+def fact(n):
+    if n ==0 or n==1:
+     return 1
+    else: 
+     factorial = n* fact(n-1)
+     return factorial
+print(fact(4))    
+print(fact(5))
